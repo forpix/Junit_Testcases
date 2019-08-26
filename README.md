@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # java-junit-sample
 
 This project is meant to show the usage of JUnit, Mockito and Powermock for unit testing in Java.
@@ -11,3 +12,6 @@ Ther eis also a corresponding blog article to this repository that can be found 
 more detail the approaches shown here: https://blog.codecentric.de/en/2016/03/junit-testing-using-mockito-powermock/
 
 
+=======
+# Junit_Testcases
+>>>>>>> 0dcbe63462e96ae3d4d98faf9511de39b8bd9b65
