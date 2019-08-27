@@ -16,6 +16,7 @@ jobs:
     - name: Run a one-line script
       run: whoami
     - name: Run a multi-line script
-      run: date
+      run: |
         echo Add other actions to build,
-        echo test, and deploy your project.
+        echo test, and deploy your project,
+        date
