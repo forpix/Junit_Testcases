@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
-  maven: circleci/maven@3.5.3
+    hello: circleci/hello-build@0.0.5
 workflows:
-  maven_test:
-    jobs:
-      - maven/test
+    "Hello Workflow":
+        jobs:
+          - hello/hello-build
