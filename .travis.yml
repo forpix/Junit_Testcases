@@ -1,0 +1,20 @@
+language: java
+dist: trusty
+sudo: true
+
+script:
+   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash ./travis/run_on_non_pull_requests; fi'
+
+matrix:
+  include:      
+    #Linux
+    - os: linux
+ 
+
+# jdk_switcher does not work on OSX so only use if Linux
+before_install:
+  - if [ "$TRAVIS_OS_NAME" == "linux" ]; then jdk_switcher use "oraclejdk8"; fi
+
+script:
+  - mvn compile
+  - mvn test
