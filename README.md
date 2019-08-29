@@ -12,3 +12,4 @@ Ther eis also a corresponding blog article to this repository that can be found 
 more detail the approaches shown here: https://blog.codecentric.de/en/2016/03/junit-testing-using-mockito-powermock/
 
 # Junit_Testcases
+
